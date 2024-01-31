@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+    margin: 2px;
     padding: 0;
     box-sizing: border-box;
 }
@@ -13,7 +13,7 @@
 }
 
 .container{
-    columns: 3 250px;
+    columns: 4 250px;
     gap: 5px;
 }
 
