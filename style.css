@@ -1,4 +1,22 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+.container img{
+    display: block;
+    width: 100%;
+    margin-bottom: 3px;
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
+}
+
+.container{
+    columns: 3 250px;
+    gap: 5px;
+}
+
+.container img:hover{
+    opacity: 1;
 }
